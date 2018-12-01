@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>flipkart</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-0QDB84RR-releases</name>
+        <url>http://localhost:8081/artifactory/First_artifactory</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-0QDB84RR-snapshots</name>
+        <url>http://localhost:8081/artifactory/First_artifactory</url>
+    </snapshotRepository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
