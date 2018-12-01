@@ -18,12 +18,13 @@
         <name>LAPTOP-0QDB84RR-snapshots</name>
         <url>http://localhost:8081/artifactory/First_artifactory</url>
     </snapshotRepository>
-</distributionManagement>
 <contextUrl>http://localhost:8081/artifactory</contextUrl>
 <username>admin</username>
 <password>signmein667#</password>
 <repoKey>First_artifactory</repoKey>
 <snapshotRepoKey>First_artifactory</snapshotRepoKey>
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
